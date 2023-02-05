@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+</head>
+<body>
+    <div class="container">
+        <h3 class="heading">RANDOM PASSWORD GENERATOR</h3>
+        <div class="password_count -option">
+            <label class="">
+                Enter the number of characters for your password:
+            </label>
+            <input type="text" id="count" oninput="countGeneration()" placeholder="Enter password count" pattern="0-9">
+        </div>
+        <div class="special_char_toggle -option">
+        
+
+        </div>
+        <div class="-option">
+            <button id="submitbutton">Generate</button>
+        </div>
+        <div class="password -option">
+            Password
+            <div>
+                <input id="pwd" type="text" disabled>
+                <span title="Copy" style="margin-left:10px"><i class="fi fi-rr-copy-alt"></i></span>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="./scripts.js"></script>
+</body>
+</html>
