@@ -1,0 +1,42 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:50em;
+    height:max-content;
+    border-radius:5px;
+    background-color: blueviolet;
+    padding:4%;
+}
+body{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    color:white;
+    font-family: 'Lucida Sans';
+    
+}
+textarea{
+    resize:none;
+    border-radius:10px;
+    padding:15px;
+}
+
+
+
+.liveCount{
+    width:fit-content;
+    height:20px;
+    padding:20px;
+    color:white;
+    background-color:black;
+}
+
+.bottom-content{
+    margin:15px 0;
+}
